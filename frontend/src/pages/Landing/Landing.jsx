@@ -17,11 +17,11 @@ export default function Landing() {
 
   // Temporary logs to verify behavior during testing
   // eslint-disable-next-line no-console
-  console.log("Landing: context isAuthenticated =", contextAuth);
+  
   // eslint-disable-next-line no-console
-  console.log("Landing: authService.isAuthenticated() =", serviceAuth);
+  
   // eslint-disable-next-line no-console
-  console.log("Landing: final computed auth =", finalAuth);
+  
 
   const primaryLabel = finalAuth ? "Open forum" : "Create free account";
   const primaryTo = finalAuth ? "/dashboard" : "/auth";
